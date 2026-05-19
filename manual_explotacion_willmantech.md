@@ -1,24 +1,24 @@
 # Manual de Explotacion WillmanTech S.L
-## Introduccion
+## Introducción y Arquitectura
 Sistema desplegado mediante Docker Compose:
 
 - Odoo ERP
 - PostgreSQL
 - Servicio web
 
-## Guia de instalacion
+## Guía de Instalación y Reinstalación
 docker -compose up -d
 
-## Seguridad
+## Seguridad y Control de Acceso
 Administrador 
 Contable
 Comercial
 
-## Backup
+## Procedimiento de Backup y Restauración
 
 docker exec postgres pg_dump -U odoo postgres > backup.sql
 
-## Flujo operativo de facturacion
+## Flujo Operativo de Facturación e Informes
 
 Usuario crea la factura
 Odoo guarda los datos
