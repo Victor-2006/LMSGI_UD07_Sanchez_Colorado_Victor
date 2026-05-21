@@ -20,6 +20,6 @@
     </cac:AccountingCustomerParty>
     
     <cac:LegalMonetaryTotal>
-        <cbc:PayableAmount currencyID="EUR">1500</cbc:PayableAmount>  
+        <cbc:PayableAmount currencyID="EUR">1500</cbc:PayableAmount>    // Importe total a pagar en euros
     </cac:LegalMonetaryTotal>
    </Invoice>
