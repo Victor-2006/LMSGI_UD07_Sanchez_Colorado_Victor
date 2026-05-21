@@ -10,19 +10,9 @@ Modulos activados:
 - Informes QWeb
 - Gestion de usuarios
 
-Topologia:
+Es decir:
 
-Usuario
-    ↓
-Interfaz usuario
-    ↓
-Servidor Web Odoo
-    ↓
-Servidor ERP
-    ↓
-Base de datos PostgreSQL
-
-
+Usuario --> Interfaz usuario -->Servidor Web Odoo --> Servidor ERP --> Base de datos PostgreSQL
 
 ## Guía de Instalación y Reinstalación
 Necesitas:
